@@ -9,6 +9,13 @@ public class Calculator {
 		System.out.println(result);
 		result = calculator.multly(2,3);
 		System.out.println(result);
+		result = calculator.divide(6,2);
+		System.out.println(result);
+	}
+
+	private int divide(int i, int j) {
+		// TODO Auto-generated method stub
+		return i / j;
 	}
 
 	private int multly(int i, int j) {
