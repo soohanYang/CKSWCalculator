@@ -7,7 +7,6 @@ public class Calculator {
 		System.out.println(result);
 		result = calculator.substract(2,3);
 		System.out.println(result);
-		result = calculator.multiply(2,3);
 	}
 
 	private int substract(int i, int j) {
